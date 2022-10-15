@@ -1,0 +1,61 @@
+Who are we?
+
+We are a group of data analysts who are conducting a detailed study of the “MusicNet” dataset in a music center in Montreal.
+As part of our studies we try to answer some questions regarding classical music: Composers, instruments, composition and duration.
+
+What is our goal ?
+
+Our goal is to optimize classical music production, marketing strategy and distribution on the one hand, and listening to and discovering 
+artists corresponding to everyone's tastes on the other.
+
+Business needs:
+Dataset: https://www.kaggle.com/datasets/imsparsh/musicnet-dataset
+ 
+The MusicNet dataset is offered as a tool to address the following tasks:
+1)Instrument Classification
+2)The classification of composer
+3)The duration of composition
+
+Environments and programming language
+
+Tools for analysis and programming language:
+SparkSQL
+Scala
+Hive
+MapReduce:Java
+
+The work environment: 
+Hadoop 
+Cloudera
+DataBricks
+
+ACQUIRED SKILLS:
+
+1)Implementation of dataset to different hardware and software environments.
+2)Cluster administration under Hadoop.
+3)Familiarity with different programming and analysis languages.
+4)Adaptation of identical questions to different analysis environments and languages.
+5)Establish a comparison among the different approaches deployed with regard to the preparation time of the clusters and the execution time of the works.
+6)Detection and management of errors during execution.
+
+
+ENCOUNTERED DIFFICULTIES:
+
+1)header error when running under Hadoop
+2)Runtime error in hadoop:“failure for input string”
+3)Runtime error under Databricks: NumberFormatException
+4)CSV file “MusicNet” generates an error due to III column “Composition” which contain strings with comma.
+5)Treating Data set under Hive shows column mismatch due to interpreting comma ',' of the same column as a delimiter with error: NumberFormatException or gives false results at runtime
+6)Fixed composition column and eliminated commas that appear in the same column
+
+Conclution:
+
+“MusicNet” is an attempt to create a dataset that allows analysis of classical music.
+
+In the life cycle of a project, understanding the
+business need is one of the most important steps. We believe we have clearly elucidated, modeled the business requirements but also the objectives to be 
+achieved and the value sought by the client. But the step that includes the technology to be selected is also important if you want to meet time commitments and meet deadlines.
+The usage of different dataframes such as Hadoop Mapreduce on Ubuntu, Spark Sql under DataBricks and Hive SQL showed insight into the levels of difficulties encountered during the project.
+Hadoop mapreduce represents, in our opinion, a less friendly approach for data analysts, not only for the time spent preparing the clusters but also for the in-depth knowledge of java programming.
+
+Spark and Hive have a more interactive processing interface with pre-built APIs and surely represent the best option for Data Analysts accustomed to SQL.

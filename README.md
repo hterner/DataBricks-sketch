@@ -1,2 +1,2 @@
 # DataBricks-sketch
-Musicnet Dataset Analysis under several environments: SQLSpark, PySpark, Hive, etc
+Musicnet Dataset Analysis under several environments: SQLSpark, Hive, etc
